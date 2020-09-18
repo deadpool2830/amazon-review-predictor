@@ -18,13 +18,7 @@
 	<p style="color:blue;font-size:20;text-align: center;"><b>Results for Comment</b></p>
 	<div class="results">
 			
-	{% if prediction == ['neu']}
-	<h2 style="color:red;">Neutral</h2>
-	{% elif prediction == ['neg']}
-	<h2 style="color:blue;">Negative </h2>
-	{% elif prediction == ['pos']}
-	<h2 style="color:blue;">Positive </h2>
-	{% endif %}
+	<h2 style="color:red;">      {{prediction[0]}}        </h2>
 	</div>
 
 </body>
